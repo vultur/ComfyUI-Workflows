@@ -100,8 +100,8 @@
 
 | 工作流程 | 模型 | 说明 |
 | --- | --- | --- |
-| [FLUX.1-Kontext_Dev_Basic.json](./FLUX/FLUX.1-Kontext_Dev_Basic.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | 基础文生图工作流，使用 `CLIPTextEncodeFlux` 节点 |
-| [FLUX.1-Kontext_Dev_Sampler+Scheduler.json](./FLUX.1-Kontext_Dev_Sampler+Scheduler.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | Sampler + Scheduler 测试工作流，输出 XY 图 |
+| [FLUX.1-Kontext_Dev_Basic.json](https://raw.githubusercontent.com/vultur/ComfyUI-Workflows/refs/heads/main/FLUX/FLUX.1-Kontext_Dev_Basic.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | 基础文生图工作流，使用 `CLIPTextEncodeFlux` 节点 |
+| [FLUX.1-Kontext_Dev_Sampler+Scheduler.json](https://raw.githubusercontent.com/vultur/ComfyUI-Workflows/refs/heads/main/FLUX.1-Kontext_Dev_Sampler+Scheduler.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | Sampler + Scheduler 测试工作流，输出 XY 图 |
 
 ### Kolors
 
