@@ -82,6 +82,7 @@
 ### 安装 ComfyUI 插件
 
 - [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)（**可选**）：用于加载和运行 GGUF 格式的模型文件。
+- [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere)（**推荐**）：通过创建虚拟连接来减少节点之间的混乱连线，从而提高构建和管理复杂工作流的效率
 
 ## 工作流程
 
