@@ -22,12 +22,14 @@
 ### 安装 Flux 模型
 
 > [!NOTE]
-> 使用基于其它模型的工作流时，请先下载并安装对应模型，包括 Checkpoint（U-Net、CLIP、VAE）、ControlNet、LoRA 等。
+> 该仓库下的工作流主要基于 Flux 模型进行构建（由于设备限制，大部分工作流都使用 `.gguf` 格式的模型文件）。
+>
+> 使用基于其它模型的工作流时，请先下载并安装对应的模型，包括 Checkpoint（U-Net、CLIP、VAE）、ControlNet、LoRA 等。
 
 如果你的电脑显存较大，可以考虑使用 Flux 的原始版本；如果你的电脑显存较小或性能不足，建议使用 **GGUF** 版本。
 
 > [!TIP]
-> **GGUF** 格式的 Flux 模型提供了多个不同质量的模型文件，如果你在对应仓库下不知道该下载哪个模型文件，
+> **GGUF** 格式的 Flux 模型提供了多个不同质量的模型文件，如果你在对应的仓库下不知道该下载哪个模型文件，
 >
 > 这里有一个简单的引导规则：Q 后面的数字越大，需要的显存越大，同时生成图片的质量越高。
 > 
@@ -82,7 +84,8 @@
 ### 安装 ComfyUI 插件
 
 - [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)（**可选**）：用于加载和运行 GGUF 格式的模型文件。
-- [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere)（**推荐**）：通过创建虚拟连接来减少节点之间的混乱连线，从而提高构建和管理复杂工作流的效率
+- [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere)（**推荐**）：使用虚拟连接减少节点之间的连线，提高构建和管理复杂工作流的效率。
+- [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials)（**推荐**）：扩展 ComfyUI 节点，增强图像处理能力。
 
 ## 工作流程
 
@@ -97,7 +100,13 @@
 
 | 工作流程 | 模型 | 说明 |
 | --- | --- | --- |
-| [FLUX.1-Kontext_Dev_Basic.json](./FLUX/FLUX.1-Kontext_Dev_Basic.json) | FLUX.1-Kontext-Dev-GGUF | 使用 GGUF 加载器的基础文生图工作流 |
+| [FLUX.1-Kontext_Dev_Basic.json](./FLUX/FLUX.1-Kontext_Dev_Basic.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | 基础文生图工作流，使用 `CLIPTextEncodeFlux` 节点 |
+| [FLUX.1-Kontext_Dev_Sampler+Scheduler.json](./FLUX.1-Kontext_Dev_Sampler+Scheduler.json?raw=true) | FLUX.1-Kontext-Dev-GGUF | Sampler + Scheduler 测试工作流，输出 XY 图 |
+
+### Kolors
+
+| 工作流程 | 模型 | 说明 |
+| --- | --- | --- |
 
 ### Lumina
 
