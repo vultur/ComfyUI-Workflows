@@ -100,8 +100,8 @@
 
 | 工作流程 | 说明 |
 | --- | --- |
-| [FLUX.1-Kontext_Dev_Basic.json](https://raw.githubusercontent.com/vultur/ComfyUI-Workflows/refs/heads/main/FLUX/FLUX.1-Kontext_Dev_Basic.json?raw=true) | 基础文生图工作流，使用 `CLIPTextEncodeFlux` 节点 |
-| [FLUX.1-Kontext_Dev_Sampler+Scheduler.json](https://raw.githubusercontent.com/vultur/ComfyUI-Workflows/refs/heads/main/FLUX.1-Kontext_Dev_Sampler+Scheduler.json?raw=true) | Sampler + Scheduler 测试工作流，支持多组提示词、网格图排列 |
+| [下载](./FLUX/FLUX.1-Kontext_Dev_Basic.json) | 基础文生图工作流，支持 `clip_l` 和 `t5xxl` 双文本编码 |
+| [下载](./FLUX.1-Kontext_Dev_Sampler+Scheduler.json) | Sampler + Scheduler 测试工作流，支持多组提示词、网格图排列 |
 
 ### Kolors
 
