@@ -11,7 +11,7 @@
 ## 开始使用
 
 > [!TIP]
-> 如果你使用 [LibLib AI](https://www.liblib.art/comfy)、[RunComfy](https://www.runcomfy.com/zh-CN/comfyui-web)、[RunningHub](https://www.runninghub.cn/)或 [ComfyUI Web](https://comfyuiweb.com/) 等 ComfyUI 云平台进行创作，请忽略以下安装步骤。
+> 如果你使用 [LibLib AI](https://www.liblib.art/comfy)、[RunComfy](https://www.runcomfy.com/zh-CN/comfyui-web) 或 [RunningHub](https://www.runninghub.cn/) 等 ComfyUI 云平台进行创作，请忽略以下安装步骤。
 
 ### 安装 ComfyUI
 
