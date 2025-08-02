@@ -91,6 +91,7 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`8 ~ 12 GB �
 - [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)（**可选**）：用于加载和运行 GGUF 格式的模型文件。
 - [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere)（**推荐**）：使用虚拟连接减少节点之间的连线，提高构建和管理复杂工作流的效率。
 - [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials)（**推荐**）：扩展 ComfyUI 节点，增强图像处理能力。
+- [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui)（**推荐**）：丰富的效率节点，优化和加速工作流构建。
 
 ## 工作流程
 
@@ -105,8 +106,8 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`8 ~ 12 GB �
 
 | 工作流 | 说明 |
 | --- | --- |
-| [查看](./FLUX/FLUX.1-Krea[dev]-Basic.json) | 基础文生图工作流，支持 `clip_l` 和 `t5xxl` 双文本编码 |
-| [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | Sampler + Scheduler 测试工作流，支持多组提示词 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-Basic.json) | 基础文生图，支持 `clip_l` 和 `t5xxl` 双文本编码 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | Sampler + Scheduler 组合测试，支持多组提示词 |
 
 ### Kolors
 
