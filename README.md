@@ -39,17 +39,18 @@
 
 | 作者 | 模型名称 | 特性 | 显存要求 | 文件大小 | 下载地址 |
 | --- | --- | --- | --- | --- | --- |
-| Black Forest Labs | Flux.1 Dev | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true) |
-| Black Forest Labs | Flux.1 Schnell | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors?download=true) |
-| Black Forest Labs | Flux.1 Kontext Dev | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8 GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/flux1-kontext-dev.safetensors?download=true) |
-| ComfyUI | Flux.1 Dev FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 17.2GB | [下载](https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors?download=true) |
-| ComfyUI | Flux.1 Schnell FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 17.2GB | [下载](https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors?download=true) |
-| ComfyUI | Flux.1 Kontext Dev FP8 | 需要下载 CLIP、VAE、UNET 等几个模型 | 8GB+ | 11.9GB | [下载](https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors?download=true) |
-| Kijai | Flux.1 Dev FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 11.9GB | [下载](https://huggingface.co/Kijai/flux-fp8/resolve/main/flux1-dev-fp8.safetensors?download=true) |
-| Kijai | Flux.1 Schnell FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 11.9GB | [下载](https://huggingface.co/Kijai/flux-fp8/resolve/main/flux1-schnell-fp8-e4m3fn.safetensors?download=true) |
-| City96 | Flux.1 Dev GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/city96/FLUX.1-dev-gguf) |
-| City96 | Flux.1 Schnell GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/city96/FLUX.1-schnell-gguf) |
-| bullerwins | Flux.1 Kontext Dev GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/bullerwins/FLUX.1-Kontext-dev-GGUF) |
+| Black Forest Labs | FLUX.1 [dev] | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors?download=true) |
+| Black Forest Labs | FLUX.1 [schnell] | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors?download=true) |
+| Black Forest Labs | FLUX.1 Kontext [dev] | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8 GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/flux1-kontext-dev.safetensors?download=true) |
+| Black Forest Labs | FLUX.1 Krea [dev] | 需要下载 CLIP、VAE、UNET 等几个模型 | 16GB+ | 23.8GB | [下载](https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev/resolve/main/flux1-krea-dev.safetensors?download=true) |
+| ComfyUI | FLUX.1 [dev] FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 17.2GB | [下载](https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors?download=true) |
+| ComfyUI | FLUX.1 [schnell] FP8 | 融合 Clip 及 VAE，仅需要下载一个模型 | 8GB+ | 17.2GB | [下载](https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors?download=true) |
+| ComfyUI | FLUX.1 Kontext [dev] FP8 | 需要下载 CLIP、VAE、UNET 等几个模型 | 8GB+ | 11.9GB | [下载](https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors?download=true) |
+| ComfyUI | FLUX.1 Krea [dev] FP8 | 需要下载 CLIP、VAE、UNET 等几个模型 | 8GB+ | 11.9GB | [下载](https://huggingface.co/Comfy-Org/FLUX.1-Krea-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-krea-dev_fp8_scaled.safetensors?download=true) |
+| city96 | FLUX.1 [dev] GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/city96/FLUX.1-dev-gguf) |
+| city96 | FLUX.1 [schnell] GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/city96/FLUX.1-schnell-gguf) |
+| QuantStack | FLUX.1 Kontext [dev] GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/QuantStack/FLUX.1-Kontext-dev-GGUF) |
+| QuantStack | FLUX.1 Krea [dev] GGUF | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | 6GB+ | / | [下载](https://huggingface.co/QuantStack/FLUX.1-Krea-dev-GGUF) |
 
 > [!IMPORTANT]
 > 1. 下载 **Flux** 模型文件，取决于你的显存配置；
@@ -90,18 +91,18 @@
 ## 工作流程
 
 > [!NOTE]
-> 在 ComfyUI 中导入下载的模板文件（`*.json`），根据提示安装缺失的模型及插件。
+> 在 ComfyUI 中导入下载的文件（`*.json`），根据提示安装缺失的模型及插件。
 >
 > 如需替换工作流中默认的模型版本或模型文件，可能需要手动添加或移除对应的自定义节点。
 >
-> 例如：当你使用官方原始版本的 Flux 模型（`flux1-kontext-dev.safetensors`）替换默认工作流中的 GGUF 版本（`flux1-kontext-dev-Q4_K_M.gguf`）时，需要将其中的 **UnetLoaderGGUF** 节点更改为 **UnetLoader** 加载器。
+> 例如：当你使用官方原始版本的 Flux 模型（`.safetensors`）替换默认工作流中的 GGUF 版本（`.gguf`）时，需要将其中的 **UnetLoaderGGUF** 节点更改为 **UnetLoader** 加载器。
 
 ### Flux
 
 | 模版 | 说明 |
 | --- | --- |
-| [查看](./FLUX/FLUX.1-Kontext_Dev_Basic.json) | 基础文生图工作流，支持 `clip_l` 和 `t5xxl` 双文本编码 |
-| [查看](./FLUX/FLUX.1-Kontext_Dev_Sampler+Scheduler.json) | Sampler + Scheduler 测试工作流，支持多组提示词、网格图排列 |
+| [查看](./FLUX/FLUX.1-Krea[dev]_Basic.json) | 基础文生图工作流，支持 `clip_l` 和 `t5xxl` 双文本编码 |
+| [查看](./FLUX/FLUX.1-Krea[dev]_Sampler+Scheduler.json) | Sampler + Scheduler 测试工作流，支持多组提示词 |
 
 ### Kolors
 
