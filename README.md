@@ -1,6 +1,6 @@
 <div align="center">
   
-<img width="1029" height="436" alt="ComfyUI Workflows" src="https://github.com/user-attachments/assets/a7a2bfda-4459-49fb-9fae-febd5d1af364" />
+<img width="1280" height="720" alt="H100" src="https://github.com/user-attachments/assets/ae29735c-9ec5-4574-b5a1-d09787592d56" />
   
 # ComfyUI Workflows
 
