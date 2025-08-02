@@ -43,7 +43,7 @@
 | Black Forest Labs | `FLUX.1 Krea [dev]` | 需要下载 CLIP、VAE、UNET 等几个模型 | [下载](https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev/resolve/main/flux1-krea-dev.safetensors?download=true) |
 | ComfyUI | `FLUX.1 [dev]` **FP8** | 融合 Clip 及 VAE，仅需要下载一个模型 | [下载](https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors?download=true) |
 | ComfyUI | `FLUX.1 [schnell]` **FP8** | 融合 Clip 及 VAE，仅需要下载一个模型 | [下载](https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors?download=true) |
-| ComfyUI | `FLUX.1 Kontext [dev]` **FP8** | 融合 Clip 及 VAE，仅需要下载一个模型 | 下载](https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors?download=true) |
+| ComfyUI | `FLUX.1 Kontext [dev]` **FP8** | 融合 Clip 及 VAE，仅需要下载一个模型 | [下载](https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors?download=true) |
 | ComfyUI | `FLUX.1 Krea [dev]` **FP8** | 融合 Clip 及 VAE，仅需要下载一个模型 | [下载](https://huggingface.co/Comfy-Org/FLUX.1-Krea-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-krea-dev_fp8_scaled.safetensors?download=true) |
 | city96 | `FLUX.1 [dev]` **GGUF** | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | [下载](https://huggingface.co/city96/FLUX.1-dev-gguf) |
 | city96 | `FLUX.1 [schnell]` **GGUF** | 需要下载 CLIP、VAE、UNET 等几个模型；<br />需要安装 [ComfyUI-GGUF插件](https://github.com/city96/ComfyUI-GGUF) | [下载](https://huggingface.co/city96/FLUX.1-schnell-gguf) |
