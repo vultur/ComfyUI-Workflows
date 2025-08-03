@@ -107,6 +107,7 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`8 ~ 12 GB �
 | 工作流 | 说明 |
 | --- | --- |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Basic.json) | 基础文生图，支持 `clip_l` 和 `t5xxl` 双文本编码 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | CFG + Steps 组合测试，输出 XY 图表 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | Sampler + Scheduler 组合测试，支持多组提示词 |
 
 ### Kolors
