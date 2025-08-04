@@ -112,13 +112,13 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 >
 > 如需替换工作流中默认的模型版本或模型文件，你需要手动添加或移除对应的自定义节点。
 >
-> 例如：若使用 Flux 的原始权重版本替换工作流中的 GGUF 版本，需要将其中的 **Unet Loader (GGUF)** 节点替换为 **Load Diffusion Model** 节点；而使用 **FP8 版本**时则需要将其替换为 **Checkpoint Loader** 节点，同时移除 CLIP 及 VAE 的相关加载节点。
+> 例如：若使用 Flux 的原始权重版本替换工作流中的 GGUF 版本，需要将其中的 **Unet Loader (GGUF)** 节点替换为 **Load Diffusion Model** 节点；而使用 **FP8 版本**时则需要将其替换为 **Checkpoint Loader** 节点，同时移除 CLIP 及 VAE 对应的加载节点。
 
 ### Flux
 
 | 工作流程 | 文件 | 图像 |
 | --- | :---: | :---: |
-| **GGUF** 模型加载 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) |
+| GGUF 模型加载 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) |
 | CFG 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG_XY_Plot.json) | [预览]() |
 | Steps 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-Steps_XY_Plot.json) | [预览]() |
 | Guidance 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() |
