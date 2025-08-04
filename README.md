@@ -24,7 +24,7 @@
 > [!NOTE]
 > 如需运行基于其它模型的工作流，请先安装对应的模型，包括 Checkpoint（U-Net、CLIP、VAE）、LoRA 等。
 
-Flux 对硬件要求较高，原始权重版本最低显存要求：`> 24 GB`。
+Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 
 开源社区基于原始权重版本提供了多个版本，对硬件要求较低：
 
@@ -93,14 +93,17 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 24 GB`。
 > 1. 下载 `ae.safetensors` 模型文件；
 > 2. 将文件拷贝到 `ComfyUI/models/vae` 目录。
 
-### 安装 ComfyUI 插件
+### 安装 ComfyUI 插件（可选）
+
+> [!NOTE]
+> 你也可以在 ComfyUI 中直接导入模板文件（`*.json`），根据提示安装缺失的插件。
 
 | 插件名称 | 插件功能 | 备注 |
 | --- | --- | :---: |
 | [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | 用于加载和运行 GGUF 格式的模型文件 | 可选 |
-| [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 使用虚拟连接减少节点之间的连线，提高构建和管理复杂工作流的效率 | 推荐 |
+| [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 使用虚拟连接减少节点之间的连线 | 推荐 |
 | [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) | 扩展 ComfyUI 节点，增强图像处理能力 | 推荐 |
-| [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) | 丰富的效率节点，优化和加速工作流构建 | 推荐 |
+| [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) | 提供丰富的效率节点，优化和加速工作流构建 | 推荐 |
 
 ## 工作流程
 
