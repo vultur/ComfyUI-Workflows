@@ -120,7 +120,7 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | :---: | :---: | --- |
 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) | GGUF 模型加载 |
 | [查看](./FLUX/xy_input_cfg.json) | [预览](./FLUX/output/xy_input_cfg.png) | CFG 参数测试 |
-| [查看](./FLUX/FLUX.1-Krea[dev]-Steps_XY_Plot.json) | [预览]() | Steps 参数测试 |
+| [查看](./FLUX/xy_input_steps.json) | [预览](./FLUX/output/xy_input_steps.png) | Steps 参数测试 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() | Guidance 参数测试  |
 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | [预览]() | CFG + Steps XY 图表 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | [预览]() | Sampler + Scheduler XY 图表，支持多组提示词 |
