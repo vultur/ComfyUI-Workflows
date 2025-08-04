@@ -116,59 +116,59 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 
 ### Flux
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
-| GGUF 模型加载 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) |
-| CFG 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG_XY_Plot.json) | [预览]() |
-| Steps 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-Steps_XY_Plot.json) | [预览]() |
-| Guidance 参数测试 | [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() |
-| CFG + Steps XY 图表 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | [预览]() |
-| Sampler + Scheduler XY 图表，支持多组提示词 | [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | [预览]() |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
+| [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) | GGUF 模型加载 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-CFG_XY_Plot.json) | [预览]() | CFG 参数测试 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-Steps_XY_Plot.json) | [预览]() | Steps 参数测试 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() | Guidance 参数测试  |
+| [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | [预览]() | CFG + Steps XY 图表 |
+| [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | [预览]() | Sampler + Scheduler XY 图表，支持多组提示词 |
 
 ### Kolors
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### Lumina
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### HiDream
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### OmniGen2
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### SDXL/SD3.5
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### Hunyuan
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### LTXV
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### Wan
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ### 其它
 
-| 工作流程 | 文件 | 图像 |
-| --- | :---: | :---: |
+| 模板 | 图像 | 说明 |
+| :---: | :---: | --- |
 
 ## 常见问题
 
