@@ -103,14 +103,14 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | 用于加载和运行 GGUF 格式的模型文件 | **可选** |
 | [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 使用虚拟连接减少节点之间的连线 | ⭐️⭐️⭐️⭐️⭐️ |
 | [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) | 扩展 ComfyUI 节点，增强图像处理能力 | / |
-| [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) | 提供丰富的效率节点，优化和加速工作流构建 | / |
+| [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) | 提供丰富的效率节点，优化和加速工作流构建 | ⭐️⭐️⭐️ |
 
 ## 工作流程
 
 > [!NOTE]
 > 由于设备限制，该仓库下的工作流大多使用 **GGUF 版本**（`.gguf`）的模型。
 >
-> 如需替换工作流中默认的模型版本或模型文件，你需要手动添加或移除对应的自定义节点。
+> 如需替换工作流中默认的模型版本或模型文件，你需要手动添加或移除对应的节点。
 >
 > 例如：若使用 Flux 的原始权重版本替换工作流中的 GGUF 版本，需要将其中的 **Unet Loader (GGUF)** 节点替换为 **Load Diffusion Model** 节点；而使用 **FP8 版本**时则需要将其替换为 **Checkpoint Loader** 节点，同时移除 CLIP 及 VAE 对应的加载节点。
 
@@ -119,7 +119,7 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | 模板文件 | 生成图像 | 说明 |
 | :---: | :---: | --- |
 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) | GGUF 模型加载 |
-| [查看](./FLUX/FLUX.1-Krea[dev]-CFG_XY_Plot.json) | [预览]() | CFG 参数测试 |
+| [查看](./FLUX/xy_input_cfg.json) | [预览](./FLUX/output/xy_input_cfg.png) | CFG 参数测试 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Steps_XY_Plot.json) | [预览]() | Steps 参数测试 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() | Guidance 参数测试  |
 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | [预览]() | CFG + Steps XY 图表 |
