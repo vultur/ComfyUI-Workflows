@@ -203,8 +203,8 @@
             "outputs": [
                 {
                     "label": "正面条件",
-                    "name": "CONDITIONING",
-                    "type": "CONDITIONING",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         212
                     ]
@@ -238,8 +238,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "LATENT",
-                    "type": "LATENT",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         213
                     ]
@@ -273,8 +273,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "VAE",
-                    "type": "VAE",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         215
                     ]
@@ -342,8 +342,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "pipe",
-                    "type": "PIPE_LINE",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         219
                     ]
@@ -423,8 +423,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "X or Y",
-                    "type": "X_Y",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         231
                     ]
@@ -711,8 +711,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "MODEL",
-                    "type": "MODEL",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         209
                     ]
@@ -746,8 +746,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "CLIP",
-                    "type": "CLIP",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         214
                     ]
@@ -781,8 +781,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "CLIP",
-                    "type": "CLIP",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         216
                     ]
@@ -1018,8 +1018,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "CLIP",
-                    "type": "CLIP",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         224
                     ]
@@ -1172,8 +1172,8 @@
             "inputs": [],
             "outputs": [
                 {
-                    "name": "pipe",
-                    "type": "PIPE_LINE",
+                    "name": "*",
+                    "type": "*",
                     "links": [
                         225
                     ]
@@ -1187,125 +1187,6 @@
                 "pipePlot"
             ],
             "color": "#223"
-        },
-        {
-            "id": 622,
-            "type": "easy preSampling",
-            "pos": [
-                -2300,
-                -70
-            ],
-            "size": [
-                300,
-                250
-            ],
-            "flags": {},
-            "order": 16,
-            "mode": 0,
-            "inputs": [
-                {
-                    "localized_name": "节点束",
-                    "name": "pipe",
-                    "type": "PIPE_LINE",
-                    "link": 219
-                },
-                {
-                    "localized_name": "图像（可选）",
-                    "name": "image_to_latent",
-                    "shape": 7,
-                    "type": "IMAGE",
-                    "link": null
-                },
-                {
-                    "localized_name": "LATENT（可选）",
-                    "name": "latent",
-                    "shape": 7,
-                    "type": "LATENT",
-                    "link": null
-                },
-                {
-                    "localized_name": "步数",
-                    "name": "steps",
-                    "type": "INT",
-                    "widget": {
-                        "name": "steps"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "CFG",
-                    "name": "cfg",
-                    "type": "FLOAT",
-                    "widget": {
-                        "name": "cfg"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "采样器",
-                    "name": "sampler_name",
-                    "type": "COMBO",
-                    "widget": {
-                        "name": "sampler_name"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "调度器",
-                    "name": "scheduler",
-                    "type": "COMBO",
-                    "widget": {
-                        "name": "scheduler"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "降噪",
-                    "name": "denoise",
-                    "type": "FLOAT",
-                    "widget": {
-                        "name": "denoise"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "随机种",
-                    "name": "seed",
-                    "type": "INT",
-                    "widget": {
-                        "name": "seed"
-                    },
-                    "link": null
-                }
-            ],
-            "outputs": [
-                {
-                    "localized_name": "节点束",
-                    "name": "pipe",
-                    "type": "PIPE_LINE",
-                    "links": [
-                        227
-                    ]
-                }
-            ],
-            "title": "采样参数",
-            "properties": {
-                "cnr_id": "comfyui-easy-use",
-                "ver": "1.3.1",
-                "Node name for S&R": "easy preSampling",
-                "widget_ue_connectable": {}
-            },
-            "widgets_values": [
-                20,
-                1,
-                "uni_pc",
-                "beta",
-                1,
-                314051775515507,
-                "randomize"
-            ],
-            "color": "#2a363b",
-            "bgcolor": "#3f5159"
         },
         {
             "id": 739,
@@ -1466,10 +1347,129 @@
                 "widget_ue_connectable": {}
             },
             "widgets_values": [
-                0,
+                5,
                 "False",
                 "False",
                 "None"
+            ],
+            "color": "#2a363b",
+            "bgcolor": "#3f5159"
+        },
+        {
+            "id": 622,
+            "type": "easy preSampling",
+            "pos": [
+                -2300,
+                -70
+            ],
+            "size": [
+                300,
+                250
+            ],
+            "flags": {},
+            "order": 16,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "节点束",
+                    "name": "pipe",
+                    "type": "PIPE_LINE",
+                    "link": 219
+                },
+                {
+                    "localized_name": "图像（可选）",
+                    "name": "image_to_latent",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": null
+                },
+                {
+                    "localized_name": "LATENT（可选）",
+                    "name": "latent",
+                    "shape": 7,
+                    "type": "LATENT",
+                    "link": null
+                },
+                {
+                    "localized_name": "步数",
+                    "name": "steps",
+                    "type": "INT",
+                    "widget": {
+                        "name": "steps"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "CFG",
+                    "name": "cfg",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "cfg"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "采样器",
+                    "name": "sampler_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "sampler_name"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "调度器",
+                    "name": "scheduler",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "scheduler"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "降噪",
+                    "name": "denoise",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "denoise"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "随机种",
+                    "name": "seed",
+                    "type": "INT",
+                    "widget": {
+                        "name": "seed"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "节点束",
+                    "name": "pipe",
+                    "type": "PIPE_LINE",
+                    "links": [
+                        227
+                    ]
+                }
+            ],
+            "title": "采样参数",
+            "properties": {
+                "cnr_id": "comfyui-easy-use",
+                "ver": "1.3.1",
+                "Node name for S&R": "easy preSampling",
+                "widget_ue_connectable": {}
+            },
+            "widgets_values": [
+                20,
+                1,
+                "uni_pc",
+                "beta",
+                1,
+                845850245983047,
+                "randomize"
             ],
             "color": "#2a363b",
             "bgcolor": "#3f5159"
@@ -1641,10 +1641,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.030301,
+            "scale": 1,
             "offset": [
-                1249.4532522823883,
-                210.43132917604726
+                1438.1990107284926,
+                108.8776148321264
             ]
         },
         "ue_links": [],
