@@ -104,8 +104,6 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) | 基于 TinyTerraNodes 的 ComfyUI 节点集成包 | ⭐️⭐️⭐️⭐️⭐️ |
 | [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 使用虚拟连接减少节点之间的连线 | ⭐️⭐️⭐️⭐️⭐️ |
 | [comfyui-crystools](https://github.com/crystian/comfyui-crystools) | 资源监控、进度条、图像处理、数据对比等辅助工具 | ⭐️⭐️⭐️⭐️ |
-| [ComfyUI_essentials](https://github.com/cubiq/ComfyUI_essentials) | 扩展 ComfyUI 节点，增强图像处理能力 | ⭐️⭐️⭐️⭐️ |
-| [efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui) | 提供丰富的效率节点，优化和加速工作流构建 | ⭐️⭐️⭐️ |
 
 ## 工作流程
 
@@ -123,7 +121,7 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | [查看](./FLUX/unet_loader_gguf.json) | [预览](./FLUX/output/unet_loader_gguf.png) | GGUF 模型加载 |
 | [查看](./FLUX/xy_input_cfg.json) | [预览](./FLUX/output/xy_input_cfg.png) | CFG 参数测试 |
 | [查看](./FLUX/xy_input_steps.json) | [预览](./FLUX/output/xy_input_steps.png) | Steps 参数测试 |
-| [查看](./FLUX/FLUX.1-Krea[dev]-Guidance_XY_Plot.json) | [预览]() | Guidance 参数测试  |
+| [查看](./FLUX/xy_input_guidance.json) | [预览](./FLUX/output/xy_input_guidance.png) | Guidance 参数测试  |
 | [查看](./FLUX/FLUX.1-Krea[dev]-CFG+Steps_XY_Plot.json) | [预览]() | CFG + Steps XY 图表 |
 | [查看](./FLUX/FLUX.1-Krea[dev]-Sampler+Scheduler.json) | [预览]() | Sampler + Scheduler XY 图表，支持多组提示词 |
 
