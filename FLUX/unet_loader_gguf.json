@@ -2,7 +2,7 @@
     "id": "56d1173e-aebd-4e87-a8a0-f9c8204a0302",
     "revision": 0,
     "last_node_id": 613,
-    "last_link_id": 1292,
+    "last_link_id": 1327,
     "nodes": [
         {
             "id": 39,
@@ -351,127 +351,6 @@
             ]
         },
         {
-            "id": 596,
-            "type": "KSampler",
-            "pos": [
-                0,
-                230
-            ],
-            "size": [
-                250,
-                270
-            ],
-            "flags": {},
-            "order": 9,
-            "mode": 0,
-            "inputs": [
-                {
-                    "localized_name": "模型",
-                    "name": "model",
-                    "type": "MODEL",
-                    "link": null
-                },
-                {
-                    "localized_name": "正面条件",
-                    "name": "positive",
-                    "type": "CONDITIONING",
-                    "link": null
-                },
-                {
-                    "localized_name": "负面条件",
-                    "name": "negative",
-                    "type": "CONDITIONING",
-                    "link": 1273
-                },
-                {
-                    "localized_name": "Latent图像",
-                    "name": "latent_image",
-                    "type": "LATENT",
-                    "link": null
-                },
-                {
-                    "localized_name": "种子",
-                    "name": "seed",
-                    "type": "INT",
-                    "widget": {
-                        "name": "seed"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "步数",
-                    "name": "steps",
-                    "type": "INT",
-                    "widget": {
-                        "name": "steps"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "cfg",
-                    "name": "cfg",
-                    "type": "FLOAT",
-                    "widget": {
-                        "name": "cfg"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "采样器名称",
-                    "name": "sampler_name",
-                    "type": "COMBO",
-                    "widget": {
-                        "name": "sampler_name"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "调度器",
-                    "name": "scheduler",
-                    "type": "COMBO",
-                    "widget": {
-                        "name": "scheduler"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "降噪",
-                    "name": "denoise",
-                    "type": "FLOAT",
-                    "widget": {
-                        "name": "denoise"
-                    },
-                    "link": null
-                }
-            ],
-            "outputs": [
-                {
-                    "localized_name": "Latent",
-                    "name": "LATENT",
-                    "type": "LATENT",
-                    "links": [
-                        1275
-                    ]
-                }
-            ],
-            "title": "K 采样器",
-            "properties": {
-                "cnr_id": "comfy-core",
-                "ver": "0.3.47",
-                "Node name for S&R": "KSampler",
-                "widget_ue_connectable": {}
-            },
-            "widgets_values": [
-                968588285063808,
-                "fixed",
-                20,
-                1,
-                "uni_pc",
-                "beta",
-                1
-            ]
-        },
-        {
             "id": 609,
             "type": "VAEDecode",
             "pos": [
@@ -673,39 +552,6 @@
             "widgets_values": []
         },
         {
-            "id": 47,
-            "type": "PreviewImage",
-            "pos": [
-                1400,
-                230
-            ],
-            "size": [
-                400,
-                470
-            ],
-            "flags": {},
-            "order": 5,
-            "mode": 0,
-            "inputs": [
-                {
-                    "label": "图像",
-                    "localized_name": "图像",
-                    "name": "images",
-                    "type": "IMAGE",
-                    "link": null
-                }
-            ],
-            "outputs": [],
-            "title": "🖼️ 预览图像",
-            "properties": {
-                "cnr_id": "comfy-core",
-                "ver": "0.3.45",
-                "Node name for S&R": "PreviewImage",
-                "widget_ue_connectable": {}
-            },
-            "widgets_values": []
-        },
-        {
             "id": 529,
             "type": "EmptySD3LatentImage",
             "pos": [
@@ -811,6 +657,160 @@
                 "widget_ue_connectable": {}
             },
             "widgets_values": []
+        },
+        {
+            "id": 596,
+            "type": "KSampler",
+            "pos": [
+                0,
+                230
+            ],
+            "size": [
+                250,
+                270
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "模型",
+                    "name": "model",
+                    "type": "MODEL",
+                    "link": null
+                },
+                {
+                    "localized_name": "正面条件",
+                    "name": "positive",
+                    "type": "CONDITIONING",
+                    "link": null
+                },
+                {
+                    "localized_name": "负面条件",
+                    "name": "negative",
+                    "type": "CONDITIONING",
+                    "link": 1273
+                },
+                {
+                    "localized_name": "Latent图像",
+                    "name": "latent_image",
+                    "type": "LATENT",
+                    "link": null
+                },
+                {
+                    "localized_name": "种子",
+                    "name": "seed",
+                    "type": "INT",
+                    "widget": {
+                        "name": "seed"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "步数",
+                    "name": "steps",
+                    "type": "INT",
+                    "widget": {
+                        "name": "steps"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "cfg",
+                    "name": "cfg",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "cfg"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "采样器名称",
+                    "name": "sampler_name",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "sampler_name"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "调度器",
+                    "name": "scheduler",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "scheduler"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "降噪",
+                    "name": "denoise",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "denoise"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "Latent",
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "links": [
+                        1275
+                    ]
+                }
+            ],
+            "title": "K 采样器",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.47",
+                "Node name for S&R": "KSampler",
+                "widget_ue_connectable": {}
+            },
+            "widgets_values": [
+                888857534932974,
+                "fixed",
+                20,
+                1,
+                "uni_pc",
+                "beta",
+                1
+            ]
+        },
+        {
+            "id": 47,
+            "type": "PreviewImage",
+            "pos": [
+                1400,
+                230
+            ],
+            "size": [
+                400,
+                470
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "label": "图像",
+                    "localized_name": "图像",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": null
+                }
+            ],
+            "outputs": [],
+            "title": "🖼️ 预览图像",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.45",
+                "Node name for S&R": "PreviewImage",
+                "widget_ue_connectable": {}
+            },
+            "widgets_values": []
         }
     ],
     "links": [
@@ -885,13 +885,29 @@
         "ds": {
             "scale": 1,
             "offset": [
-                -373.8673061735808,
-                -102.8839923352844
+                -774.8469988013239,
+                -117.43451714422616
             ]
         },
         "ue_links": [
             {
                 "downstream": 597,
+                "downstream_slot": 0,
+                "upstream": "22",
+                "upstream_slot": 0,
+                "controller": 601,
+                "type": "CLIP"
+            },
+            {
+                "downstream": 609,
+                "downstream_slot": 1,
+                "upstream": "42",
+                "upstream_slot": 0,
+                "controller": 602,
+                "type": "VAE"
+            },
+            {
+                "downstream": 584,
                 "downstream_slot": 0,
                 "upstream": "22",
                 "upstream_slot": 0,
@@ -923,22 +939,6 @@
                 "type": "LATENT"
             },
             {
-                "downstream": 609,
-                "downstream_slot": 1,
-                "upstream": "42",
-                "upstream_slot": 0,
-                "controller": 602,
-                "type": "VAE"
-            },
-            {
-                "downstream": 584,
-                "downstream_slot": 0,
-                "upstream": "22",
-                "upstream_slot": 0,
-                "controller": 601,
-                "type": "CLIP"
-            },
-            {
                 "downstream": 47,
                 "downstream_slot": 0,
                 "upstream": "609",
@@ -948,13 +948,13 @@
             }
         ],
         "links_added_by_ue": [
-            1286,
-            1287,
-            1288,
-            1289,
-            1290,
-            1291,
-            1292
+            1321,
+            1322,
+            1323,
+            1324,
+            1325,
+            1326,
+            1327
         ],
         "groupNodes": {
             "FLUX.1 Kontext Image Edit": {
