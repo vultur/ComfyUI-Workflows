@@ -2,7 +2,7 @@
     "id": "56d1173e-aebd-4e87-a8a0-f9c8204a0302",
     "revision": 0,
     "last_node_id": 613,
-    "last_link_id": 1327,
+    "last_link_id": 1355,
     "nodes": [
         {
             "id": 39,
@@ -437,82 +437,6 @@
             "widgets_values": []
         },
         {
-            "id": 584,
-            "type": "CLIPTextEncodeFlux",
-            "pos": [
-                800,
-                230
-            ],
-            "size": [
-                400,
-                470
-            ],
-            "flags": {},
-            "order": 4,
-            "mode": 0,
-            "inputs": [
-                {
-                    "label": "CLIP",
-                    "localized_name": "clip",
-                    "name": "clip",
-                    "type": "CLIP",
-                    "link": null
-                },
-                {
-                    "localized_name": "clip_l",
-                    "name": "clip_l",
-                    "type": "STRING",
-                    "widget": {
-                        "name": "clip_l"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "t5xxl",
-                    "name": "t5xxl",
-                    "type": "STRING",
-                    "widget": {
-                        "name": "t5xxl"
-                    },
-                    "link": null
-                },
-                {
-                    "localized_name": "引导",
-                    "name": "guidance",
-                    "type": "FLOAT",
-                    "widget": {
-                        "name": "guidance"
-                    },
-                    "link": null
-                }
-            ],
-            "outputs": [
-                {
-                    "label": "正面条件",
-                    "localized_name": "条件",
-                    "name": "CONDITIONING",
-                    "type": "CONDITIONING",
-                    "links": [
-                        1277
-                    ]
-                }
-            ],
-            "title": "文本编码（Flux）",
-            "properties": {
-                "cnr_id": "comfy-core",
-                "ver": "0.3.47",
-                "Node name for S&R": "CLIPTextEncodeFlux",
-                "widget_ue_connectable": {}
-            },
-            "widgets_values": [
-                "",
-                "a bottle with a beautiful rainbow galaxy inside it on top of a wooden table in the middle of a modern kitchen beside a plate of vegetables and mushrooms and a wine glasse that contains a planet earth with a plate with a half eaten apple pie on it",
-                3.5
-            ],
-            "color": "#232",
-            "bgcolor": "#353"
-        },
-        {
             "id": 611,
             "type": "Anything Everywhere",
             "pos": [
@@ -526,7 +450,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -563,7 +487,7 @@
                 106
             ],
             "flags": {},
-            "order": 6,
+            "order": 4,
             "mode": 0,
             "inputs": [
                 {
@@ -633,7 +557,7 @@
             "flags": {
                 "collapsed": true
             },
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -654,6 +578,39 @@
                 "Node name for S&R": "Anything Everywhere",
                 "group_restricted": 0,
                 "color_restricted": 0,
+                "widget_ue_connectable": {}
+            },
+            "widgets_values": []
+        },
+        {
+            "id": 47,
+            "type": "PreviewImage",
+            "pos": [
+                1400,
+                230
+            ],
+            "size": [
+                400,
+                470
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "label": "图像",
+                    "localized_name": "图像",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": null
+                }
+            ],
+            "outputs": [],
+            "title": "🖼️ 预览图像",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.45",
+                "Node name for S&R": "PreviewImage",
                 "widget_ue_connectable": {}
             },
             "widgets_values": []
@@ -770,20 +727,20 @@
                 "widget_ue_connectable": {}
             },
             "widgets_values": [
-                888857534932974,
+                968588285063808,
                 "fixed",
                 20,
                 1,
-                "uni_pc",
-                "beta",
+                "dpm_2",
+                "ddim_uniform",
                 1
             ]
         },
         {
-            "id": 47,
-            "type": "PreviewImage",
+            "id": 584,
+            "type": "CLIPTextEncodeFlux",
             "pos": [
-                1400,
+                800,
                 230
             ],
             "size": [
@@ -791,26 +748,69 @@
                 470
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
-                    "label": "图像",
-                    "localized_name": "图像",
-                    "name": "images",
-                    "type": "IMAGE",
+                    "label": "CLIP",
+                    "localized_name": "clip",
+                    "name": "clip",
+                    "type": "CLIP",
+                    "link": null
+                },
+                {
+                    "localized_name": "clip_l",
+                    "name": "clip_l",
+                    "type": "STRING",
+                    "widget": {
+                        "name": "clip_l"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "t5xxl",
+                    "name": "t5xxl",
+                    "type": "STRING",
+                    "widget": {
+                        "name": "t5xxl"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "引导",
+                    "name": "guidance",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "guidance"
+                    },
                     "link": null
                 }
             ],
-            "outputs": [],
-            "title": "🖼️ 预览图像",
+            "outputs": [
+                {
+                    "label": "正面条件",
+                    "localized_name": "条件",
+                    "name": "CONDITIONING",
+                    "type": "CONDITIONING",
+                    "links": [
+                        1277
+                    ]
+                }
+            ],
+            "title": "文本编码（Flux）",
             "properties": {
                 "cnr_id": "comfy-core",
-                "ver": "0.3.45",
-                "Node name for S&R": "PreviewImage",
+                "ver": "0.3.47",
+                "Node name for S&R": "CLIPTextEncodeFlux",
                 "widget_ue_connectable": {}
             },
-            "widgets_values": []
+            "widgets_values": [
+                "",
+                "a bottle with a beautiful rainbow galaxy inside it on top of a wooden table in the middle of a modern kitchen beside a plate of vegetables and mushrooms and a wine glasse that contains a planet earth with a plate with a half eaten apple pie on it",
+                2.5
+            ],
+            "color": "#232",
+            "bgcolor": "#353"
         }
     ],
     "links": [
@@ -883,10 +883,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1,
+            "scale": 1.030301,
             "offset": [
-                -774.8469988013239,
-                -117.43451714422616
+                -447.53357560188135,
+                -158.14944286065682
             ]
         },
         "ue_links": [
@@ -907,12 +907,12 @@
                 "type": "VAE"
             },
             {
-                "downstream": 584,
+                "downstream": 47,
                 "downstream_slot": 0,
-                "upstream": "22",
+                "upstream": "609",
                 "upstream_slot": 0,
-                "controller": 601,
-                "type": "CLIP"
+                "controller": 610,
+                "type": "IMAGE"
             },
             {
                 "downstream": 596,
@@ -939,22 +939,22 @@
                 "type": "LATENT"
             },
             {
-                "downstream": 47,
+                "downstream": 584,
                 "downstream_slot": 0,
-                "upstream": "609",
+                "upstream": "22",
                 "upstream_slot": 0,
-                "controller": 610,
-                "type": "IMAGE"
+                "controller": 601,
+                "type": "CLIP"
             }
         ],
         "links_added_by_ue": [
-            1321,
-            1322,
-            1323,
-            1324,
-            1325,
-            1326,
-            1327
+            1349,
+            1350,
+            1351,
+            1352,
+            1353,
+            1354,
+            1355
         ],
         "groupNodes": {
             "FLUX.1 Kontext Image Edit": {
