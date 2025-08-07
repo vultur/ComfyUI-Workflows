@@ -101,9 +101,11 @@ Flux 对硬件要求较高，原始权重版本最低显存要求：`> 16 GB`。
 | 插件名称 | 功能 | 推荐指数 |
 | --- | --- | :---: |
 | [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | 用于加载和运行 GGUF 格式的模型文件 | **可选** |
-| [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) | 基于 TinyTerraNodes 的 ComfyUI 节点集成包 | ⭐️⭐️⭐️⭐️⭐️ |
 | [cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 使用虚拟连接减少节点之间的连线 | ⭐️⭐️⭐️⭐️⭐️ |
-| [comfyui_prompt_assistant](https://github.com/yawiii/comfyui_prompt_assistant) | 无需添加任何节点，即可实现提示词翻译、扩写、预设插入、历史记录等功能 | ⭐️⭐️⭐️⭐️⭐️ |
+| [ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) | 基于 TinyTerraNodes 的 ComfyUI 节点集成包 | ⭐️⭐️⭐️⭐️⭐️ |
+| [ComfyUI_LayerStyle](https://github.com/chflame163/ComfyUI_LayerStyle) | 支持大量图像处理的基础节点，可以合成图层达到类似 Photoshop 的功能 | ⭐️⭐️⭐️⭐️⭐️ |
+| [ComfyUI_LayerStyle_Advance](https://github.com/chflame163/ComfyUI_LayerStyle_Advance) | 提升 ComfyUI 图像处理能力的高级节点 | ⭐️⭐️⭐️⭐️⭐️ |
+| [prompt_assistant](https://github.com/yawiii/comfyui_prompt_assistant) | 提示词翻译、扩写、预设插入、历史记录等功能 | ⭐️⭐️⭐️⭐️⭐️ |
 | [comfyui-crystools](https://github.com/crystian/comfyui-crystools) | 资源监控、进度条、图像处理、数据对比等辅助工具 | ⭐️⭐️⭐️⭐️ |
 
 ## 工作流程
